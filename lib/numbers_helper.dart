@@ -1,5 +1,6 @@
 import 'locales/en.dart';
 import 'locales/vi.dart';
+import 'locales/vi.dart';
 
 /// Returns an array of strings from one-nineteen
 getNumsNames(String locale) {
@@ -77,7 +78,7 @@ getMillion(String locale) {
 getBillion(String locale) {
   switch (locale) {
     case "vi":
-      return billion;
+      return billion_vi;
     case "en":
       return billion;
     default:
